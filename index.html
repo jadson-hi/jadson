@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadson Santos</title>
+    <link rel="shortcut icon" href="/assets/eu.png">
+        <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">JADSON</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Jadson</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Jas.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Olá, eu sou</p>
+        <h1 class="title">JADSON</h1>
+        <p class="section__text__p2">Entusiasta De Design Gráfico e Tecnoligia</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contato
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png" 
+            alt="meu perfil linkedin"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/jadson-hi/'"
+          />
+          <img
+            src="./assets/youtube (1).png"
+            alt="Meu perfil youtube"
+            class="icon"
+            onclick="location.href='https://www.youtube.com/@jadson_hi'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Meu perfil github"
+            class="icon"
+            onclick="location.href='https://github.com/jadson-hi'"
+          />
+          <img
+            src="./assets/tik-tok (1).png"
+            alt="Meu perfil tiktok"
+            class="icon"
+            onclick="location.href='https://www.tiktok.com/@jadson_hi'"
+          />
+          <img
+            src="./assets/instagram.png"
+            alt="Meu perfil instagram"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/jadson_hi/'"
+          />
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Saiba Mais</p>
+      <h1 class="title">Sobre Mim</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/scm.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/sergipe.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>SERGIPANO</h3>
+              <p>33 Anos<br />Tomar Do Geru</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/estilo-de-vida.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Hobbies</h3>
+              <p>Ler, Ouvir Músicas , Praia,<br />Caminhar , Viajar</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              "Como o sol, Deus é repleto de luz e todos os dias doa o amor a nós sem cessar , além disso nada pede em troca"
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Minhas </p>
+      <h1 class="title">Habilidades</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/photoshop.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Photoshop</h3>
+                  <p>Avançado</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/depois-dos-efeitos.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>After Effect</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+            </article>
+            <article>
+              <img
+                src="./assets/ilustrador.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Illustration</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+              <article>
+                <img
+                  src="./assets/logo-microsoft-excel-1024.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                  <p>Avançado</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/lei geral.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LGPD</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/ti.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TI</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Microsoft_Office_logo_(2013–2019).svg.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pacote Office 2016</h3>
+                  <p>Avançado</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Meus</p>
+      <h1 class="title">Projetos Recentes</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/7 D E ssetembro.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto Um</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.behance.net/gallery/207349475/INDEPENDENCIA-DO-BRASIL'"
+              >
+                BeHance
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.instagram.com/vereador_dark/'"
+              >
+                Instagram
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/FLYER.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto Dois</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.behance.net/gallery/204028735/Vereador-Dark'"
+              >
+                BeHance
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.instagram.com/vereador_dark/'"
+              >
+                Instagram
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/FB_IMG_1739684453933.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto Três</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.behance.net/gallery/219384981/Projeto-Motivacional'"
+              >
+                BeHance
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.behance.net/jadson_hi'"
+              >
+                Perfil
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Entre Em</p>
+      <h1 class="title">Contato</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">jadson-stos@hotmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/whatsapp-svgrepo-com (1).svg"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://wa.me/5579998661980">Whatsapp</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Jadson Santos. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
